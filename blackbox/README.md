@@ -21,7 +21,11 @@ It suffices to enter `ssh imovies.ch`, `ssh ca.imovies.ch` or `ssh backup.imovie
 
 ### Connecting to the firewall administration interface
 
-Run the scripts `fw1.sh` or `fw2.sh` and connect to https://fw-1.imovies.ch:8080 and https://fw-2.imovies.ch:8081, respectively. (The script has to be running in the background for the connection to work, it's like a VPN) In Firefox there are also bookmarks for this.
+Run the scripts `fw1.sh` or `fw2.sh` and connect to https://fw-1.imovies.ch:8080 and https://fw-2.imovies.ch:8081, respectively. (The script has to be running in the background for the connection to work, it's like a VPN)
+
+In Firefox there are also bookmarks for this.
+
+Note that logging in can take up to a minute since the software tries to resolve a DNS request which in the virtual network will just timeout.
 
 ## Final Words
 
