@@ -51,6 +51,10 @@ All remaining scripts such as the backup script can be found in `setup.zip`. The
 
 ## Files
 
+### .enc Files
+
+The encrypted files are denoted with the extension `.enc`. It is a tar containing the IV and the actual encrypted file. Hence you first have to extract the tar and then decrypt the file using the IV and the decryption key (`ca.imovies.ch.aes-256.key`).
+
 ### CA files
 
 On `ca.imovies.ch` all CA related files are stored in `/opt/CA`.
